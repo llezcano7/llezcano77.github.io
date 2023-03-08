@@ -1,0 +1,450 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*navigation bar*/
+
+#nav{
+    margin: auto;
+    width: inherit;
+    float:right;
+    background-color: #ffffff;
+}
+
+#logoheader {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-left: 45px;
+    padding: 8px;
+}
+
+nav {
+    width: inherit;
+    float:right;
+    background-color: #ffffff;
+}
+nav ul li{
+    font-family: "Spinnaker";
+    list-style: none;
+    float:left;
+    margin: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #03989E;
+}
+
+nav ul li a:hover{
+    color: #b3b3b3;
+}
+
+/* end navigation bar*/
+
+/*IMG*/
+
+.imgcontainer {
+    background-color: #ffffff;
+  }
+
+.imgcontainer img{
+    width: 100%;
+    align-content: center;
+}
+
+/* start footer*/
+
+  footer {
+    width: 100%;
+    height: 140px;
+    background-color: #03989E;
+    position: absolute;
+    color: #ffffff;
+}
+
+.logofooter img {
+margin-top: 10px;
+width: 120px;
+height: 120px;
+float: left;
+margin-left: 45px;
+}
+
+.socialmediaicons{
+    margin-top: 40px;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.socialmediaicons li{
+    display:inline;
+    margin-right: 10px;
+    padding: 0 4px;
+}
+
+.socialmediaicons img {
+    width: 50px;
+    height: 50px;
+}
+
+.copyright {
+    margin-top: 10px;
+    text-align: center;
+    font-family: "roboto";
+    margin-right: 20%;
+    margin-left: 20%;
+}
+/* end footer*/
+
+/* start ABOUT SECTION*/
+
+#about{
+    width: 70%;
+    margin:20px auto;
+    background-color: #ffffff;
+    margin-top: 90px;
+}
+
+#about h2{
+    margin-bottom: 20px;
+    float: inline-start;
+    font-family: "Spinnaker";
+    font-size: xx-large;
+    font-style: bold;
+    font-weight: 600px;
+    color: #03989E;
+}
+#about p {
+    display: block;
+    font-family: "Roboto";
+    font-size: larger;
+    line-height: 2;
+    text-align: justify;
+} 
+
+#about hr{
+    width: 1000px;
+    border-color: #03989E;
+    border-style: solid;
+}
+
+/* end ABOUT SECTION*/
+
+/* start EXPERIENCE SECTION*/
+
+#experience {
+    width: 70%;
+    margin:20px auto;
+    background-color: #ffffff;
+    margin-top: 90px;
+}
+
+#experience h2 {
+    margin-top: 90px;
+    margin-bottom: 20px;
+    float: inline-start;
+    font-family: "Spinnaker";
+    font-size: xx-large;
+    font-style: bold;
+    font-weight: 600px;
+    color: #03989E;
+}
+
+#experience h4 {
+    margin-top:15px;
+    font-family: "roboto";
+    font-size: x-large;
+    font-style: bold;
+    font-weight: 400px;
+    color: black;
+}
+
+#experience h5 {
+    font-family: "roboto";
+    font-size:larger;
+    font-style: bold;
+    color: black;
+}
+
+#experience hr{
+    width: 1000px;
+    border-color: #03989E;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+/* start store manager UL*/
+
+.storemanager {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "roboto";
+    font-size: large;
+    font-style: normal;
+    line-height: 2;
+    color: black;
+}
+
+/* end store manager ul*/
+
+/* start communicator senior*/
+.communicatorsenior {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "roboto";
+    font-size: large;
+    font-style: normal;
+    line-height: 2;
+    color: black;
+}
+/* end communicator senior*/
+
+/* start CM*/
+.CM {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "roboto";
+    font-size: large;
+    font-style: normal;
+    line-height: 2;
+    color: black;
+}
+/* end CM*/
+
+/* start web content manager*/
+
+.webcontentmanager {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "roboto";
+    font-size: large;
+    font-style: normal;
+    line-height: 2;
+    color: black;
+}
+
+/* end web content manager*/
+
+/* start news editor UL*/
+.newseditor {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "roboto";
+    font-size: large;
+    font-style: normal;
+    line-height: 2;
+    color: black;
+}
+/* end news editor UL*/
+
+/* end EXPERIENCE SECTION*/
+
+/* start EDUCATION SECTION*/
+
+#education {
+    width: 70%;
+    margin:20px auto;
+    background-color: #ffffff;
+    margin-top: 90px;
+}
+
+#education h2 {
+    margin-bottom: 20px;
+    font-family: "Spinnaker";
+    font-size: xx-large;
+    font-style: bold;
+    font-weight: 600px;
+    color: #03989E;
+}
+
+#education hr{
+    width: 1000px;
+    border-color: #03989E;
+    border-style: solid;
+}
+
+.degrees h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: inline-start;
+    font-family: "Spinnaker";
+    font-size: large;
+    font-style: thin;
+    color: #03989E;  
+}
+
+.degrees li {
+    font-family: "roboto";
+    font-size: large;
+    font-style: normal;
+    line-height: 2;
+    color: black;
+}
+
+#education ul {
+    list-style: none;
+}
+
+#education li{
+    display: inline;
+    vertical-align: middle;
+    
+}
+/* education logos*/
+
+#uade {
+    max-width: 40%; 
+	height: auto;
+}
+#tea {
+    max-width: 40%; 
+	height: auto;
+}
+
+/* end EDUCATION SECTION*/
+
+/* start JOB SKILLS*/
+
+#jobskills{
+    width: 70%;
+    margin:20px auto;
+    background-color: #ffffff;
+}
+
+#jobskills h2{
+    margin-bottom: 20px;
+    font-family: "Spinnaker";
+    font-size: xx-large;
+    font-style: bold;
+    font-weight: 600px;
+    color: #03989E;
+}
+
+#jobskills hr{
+    width: 1000px;
+    border-color: #03989E;
+    border-style: solid;
+}
+
+#jobskills ul{
+    margin-top: 20px;
+    font-family: "roboto";
+    font-size: large;
+    font-style: normal;
+    line-height: 2;
+    color: black;
+}
+
+.cvdownload {
+    align-content: center;
+    height: 60px;
+    width: 150px;
+    border-style: hidden;
+    border-radius: 20px;
+    background-color: #03989E;
+    opacity: none;
+    color:#ffffff;
+    font-style: "Roboto";
+}
+/* end JOB SKILLS*/
+
+.button {
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.button a {
+    text-decoration: none;
+    text-align: center;
+    font-family: "Spinnaker";
+    color: #ffffff;
+    background-color: #03989E;
+    border-radius: 20px;
+    width: 250px;
+    padding: 20px 0;
+}
+
+.button a:hover{
+    color: #b3b3b3;
+}
+
+#contact{
+    width: 70%;
+    margin:20px auto;
+    background-color: #ffffff;
+    margin-top: 90px;
+}
+
+#contact h2{
+    margin-bottom: 20px;
+    font-family: "Spinnaker";
+    font-size: xx-large;
+    font-style: bold;
+    font-weight: 600px;
+    color: #03989E; 
+}
+
+#contact hr{
+    width: 1000px;
+    border-color: #03989E;
+    border-style: solid;  
+}
+
+.contactform{
+    width: 70%;
+    margin:20px auto;
+    background-color: #ffffff;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.contactform a {
+    display: block;
+    font-family: "roboto";
+    font-size: large;
+    text-decoration: none;
+    font-style: normal;
+    line-height: 2;
+    color: black;
+}
+
+.contactform a i{
+ color: #03989E;
+ margin-right: 10px;
+}
+
+.contactform form, .camp, textarea {
+    width: 350px;
+    font-size: medium;
+    font-family: "roboto";
+    margin: 10px;
+    outline: 0px;
+}
+
+.contactform form textarea {
+    max-width: 530px ;
+    min-width: 530px;
+    max-height: 150px;
+    min-height: 140px;
+}
+.contactform #btn{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Spinnaker";
+    margin-left: 10px;
+    background-color: #03989E;
+    color: #ffffff;
+    border-color: #03989E;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+.contactform #btn:hover{
+    color: #b3b3b3;
+}
